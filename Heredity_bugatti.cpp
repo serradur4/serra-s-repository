@@ -5,7 +5,6 @@ protected:
     string plate;
     string brand;
     int wheels_number;
-
 public:
     vehicle(string plate, string brand, int wheels_number) : plate(plate), brand(brand), wheels_number(wheels_number){}
     string get_plate()const{
