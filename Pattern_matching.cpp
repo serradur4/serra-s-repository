@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 int pattern_match_index(const string& text, const string& pattern) {
 	int size_t = text.size(), size_p = pattern.size(); 
 	int index = -1; 
@@ -14,3 +16,4 @@ int pattern_match_index(const string& text, const string& pattern) {
 	}  
 	return index; 
 } 
+
