@@ -23,12 +23,6 @@ void print_multi_matrix(const vector<vector<double>>& mat) {
 } 
 
 int main(int argc, char* argv []) {
-	int matrix1[2][3] = { {2, 3, 4}, {1, 2, 3} };
-	int matrix2[3][4] = { {1, 2, 3, 4}, {9, 0, 7, 7}, {2, 3, 9, 7} };
-	int matrix3[2][4] = {};
-	multi_matrix(matrix1, matrix2, matrix3);
-	print_multi_matrix(matrix3, 2);
-	
 	vector<vector<double>> mat1 = { {1, 2, 3}, {7, 8, 9}, {0, 2, 3}, {1, 1, 2} }; 			// matrix of vector 4 x 3 
 	vector<vector<double>> mat2 = { {0, 0, 9, 0, 9}, {2.3, 4, 5, 0, 8}, {1, 2, 4, 9, 7} };  			// matrix of vector 3 x 5 
 	vector<vector<double>> mat3 = { {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0} };  				// matrix of vector4 x 5
